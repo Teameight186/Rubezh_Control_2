@@ -16,12 +16,14 @@ section{
     padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 } 
 
 
 main{
     background: linear-gradient(to bottom, #FFFFFF, #F5F6FA);
     padding: 20px;
+
 }
 
 header{
@@ -141,5 +143,37 @@ ul {
     .buy_button{
         width: 120px;
         height: 55px;
+    }
+    .botm_div{
+        width: 216px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+    }
+    .menu_button{
+        display: none;
+    }
+    section{
+        align-items: flex-end;
+        justify-content: center;
+        column-gap: 7px
+        
+    }
+    .green_text{
+        font-size: 1.8rem;
+    }
+    h2{
+        font-size: 4.6rem;
+    }
+    h3{
+        font-size: 3rem;
+        padding: 20px;
+    }
+    p{
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+    li{
+        line-height: 3rem;
     }
 }
