@@ -14,6 +14,8 @@ button{
 section{
     padding-top: 50px;
     padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
 } 
 
 
@@ -80,6 +82,11 @@ ul {
 
 .block_2{
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    line-height: 2.5rem;
+
 }
 
 .price{
@@ -124,4 +131,15 @@ ul {
 .botm_div p{
     font-weight: 500;
     font-size: 2rem;
+}
+
+@media (min-width: 1024px){
+    .price{
+        width: 163px;
+        height: 55px;
+    }
+    .buy_button{
+        width: 120px;
+        height: 55px;
+    }
 }
